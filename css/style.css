@@ -370,6 +370,13 @@ nav .navbar .navbar-li .link.active {
   margin: 0 40px;
   padding: 20px;
   line-height: 2;
+  text-align: left;
+}
+@media screen and (max-width:768px) {
+.about-content .about-text {
+  padding: 0;
+  max-width: 300px;
+}
 }
 .about-content .about-link {
   font-size: 1.2rem;
